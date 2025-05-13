@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import MySlider from "./component/MySlider";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,13 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>本網站使用Vite + React開發</h1>
+      <h1>5b1g0022林亮昀</h1>
+      <h2>我的第一個元件：Slider</h2>
+      <div>
+        <p>R:<MySlider /></p>
+        <p>G:<MySlider /></p>
+        <p>B:<MySlider /></p>
+      </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
