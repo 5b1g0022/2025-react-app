@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import MySlider from "./component/MySlider";
 import MyPanel from "./component/MyPanel";
+import MyCalculator from "./component/MyCalculator";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +19,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>5b1g0022 林亮昀</h1>
+      <h1>123456789陳小明</h1>
       <h2>我的第一個元件：Slider</h2>
       <div>
         <p>R:<MySlider /></p>
@@ -28,6 +29,8 @@ function App() {
       <br/>
       <h2>第二個元件：RGB色彩面板</h2>
       <MyPanel />
+      <h2>計算機</h2>
+      <MyCalculator />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
